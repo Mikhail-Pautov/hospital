@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Врачи</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            
+            <div class="header__top">
+                <ul class="menu header__menu">
+                    <li class="menu__item"><a href="about.html">О нас</a> </li>
+                    <li class="menu__item"><a href="reviews.html">Отзывы</a></li>
+                    <li class="menu__item"><a href="vacancies.html">Вакансии</a></li>
+                    <li class="menu__item"><a href="doctors.html">Расписание</a></li>
+                </ul>
+                <a class="header__link-btn" href="appointment.html"><div class="btn header__btn">Записаться к врачу</div></a>
+            </div>
+            <div class="header__bottom">
+                <div class="header__logo"><a href="index.html"><img src="assets/img/logo.svg" alt=""></a></div>
+                <ul class="menu header__bottom-menu">
+                    <li class="menu__item"><a href="doctors.html">Врачи</a> </li>
+                    <li class="menu__item"><a href="services.html">Услуги</a></li>
+                    <li class="menu__item"><a href="clinics-addresses.html">Клиники</a></li>
+                    <li class="menu__item"><a href="special-promotion.html">Акции</a></li>
+                    <li class="menu__item"><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="header__contacts">
+                    <div class="header__phone">
+                        <img src="assets/img/phone-icon.svg" alt="">
+                        <a href="#">+7 (496) 732-534-20</a>
+                    </div>
+                    <div class="header__order-call"><span>Заказать звонок</span> с 8:00 до 21:00 </div>
+
+                </div>
+            </div>
+        </div>
+        </header>
+    <div class="search">
+        <div class="container">
+            <div class="search__filter">
+                <input name="text-request"type="text" placeholder="Введите фамилию врача">
+                <div class="btn search__filter-btn">Найти врача</div>
+            </div>
+
+            <div class="search__filter-choose">
+                <div class="search__filter-clinic">
+                    <label for="clinics">Выберите клинику</label>
+                    <select name="clinics">
+                        <option>Все клиники</option>
+                        <option>Черкизовская</option>
+                        <option>Преображенская площадь</option>
+                        <option>Сокольники</option>
+                        <option>Красносельская</option>
+                        <option>Комсомольская</option>
+                        <option>Красные ворота</option>
+                        <option>Чистые пруды</option>
+                        <option>Лубянка</option>
+                        <option>Марьино</option>
+                        <option>Перово</option>
+                        <option>Парк культуры</option>
+                        <option>Фрунзенская</option>
+                    </select>
+                </div>
+
+                <div class="search__filter-specialty">
+                    <label for="specialty">Выберите специализацию</label>
+                    <select name="specialty">
+                        <option>Все специализации</option>
+                            <option>Андролог</option>
+                            <option>Гематолог</option>
+                            <option>Генетик</option>
+                            <option>Дерматовенеролог</option>
+                            <option>Диетолог</option>
+                            <option>Кардиолог</option>                        
+                            <option>Колопроктолог</option>                        
+                            <option>Логопед</option>                         
+                            <option>Маммолог</option>
+                            <option>Нейрофизиолог</option>
+                            <option>Нейрохирург</option>
+                            <option>Остеопат</option>
+                            <option>Офтальмолг</option>
+                            <option>Пластический хирург</option>
+                            <option>Сомнолог</option>
+                            <option>Стоматолог</option>
+                            <option>Терапевт</option>
+                            <option>Трихолог</option>
+                            <option>УЗИ диагност</option>
+                            <option>Уролог</option>
+                            <option>Физиотерапевт</option>
+                            <option>Флеболог</option>
+                            <option>Хирург</option>
+                       </select>
+                </div>
+            </div>
+
+            <div class="search__filter-toggle">
+				<div class="radio">
+                    <input class="radio__input" name="toggle" type="radio" id="radio_1" >
+                    <label for="radio_1" class="radio__label">Взрослые врачи</label>
+                </div>
+                <div class="radio">
+                    <input class="radio__input" name="toggle" type="radio" id="radio_2">
+                    <label for="radio_2" class="radio__label">Детские врачи</label>
+                </div>
+            </div>
+
+            <div class="search__wrapper-result">
+               
+                
+            </div>
+            <div class="search__no-result"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <img src="assets/img/logo.svg" alt="">
+                </div>
+                <div class="footer__menu-linck">
+                    <ul>
+                        <li><a href="doctors.html">Врачи</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="clinics-addresses.html">Клиники</a></li>
+                        <li><a href="special-promotion.html">Акции</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                    </ul>
+                </div>
+                <div class="footer__services-link">
+                    <ul>
+                        <li><a href="#">Справки</a></li>
+                        <li><a href="#">Специалисты</a></li>
+                        <li><a href="#">Диагностика</a></li>
+                        <li><a href="#">Профосмотры</a></li>
+                        <li><a href="#">Анализы</a></li>
+                    </ul>
+                </div>
+                <div class="footer__articles-linck">
+                    <ul>
+                        <li><a href="#">Есть противопоказания, посоветуйтесь с врачом</a></li>
+                        <li><a href="#">Политика обработки и защиты персональных данных</a></li>
+                        <li><a href="#">Мы используем куки! Что это значит?</a></li>
+                        <li><a href="#">Для страховых компаний</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-text">Контакты:</div>
+                    <div class="footer__contacts-phone"><span>тел.</span> +7(496) 732-534-20</div>
+                    <div class="footer__contacts-ambulance"><span>вызов скорой:</span> +7(496) 732-534-35</div>
+                    <div class="footer__contacts-email"><span>эл. почта:</span>  zdorovie-msk534@gmol.ru        </div>
+    
+                </div>
+            </div>
+            <div class="footer__bottom"></div>
+        </div>
+    </footer>
+    <div class="modal">
+        <div class="modal__wrapper ">
+            <div class="modal__wrapper-close">&#10006;</div>
+            <form action="" class="modal__form ">
+                <div class="modal__form-ttile">Обратный звонок</div>
+                <div class="modal__form-subtitle">Представьтесь, мы вам перезвоним.</div>
+                <div class="modal__form-input">
+                    <label for="name">Ваше имя <span>*</span></label>
+                    <input name="name" required type="text">
+                </div>
+                <div class="modal__form-input">
+                    <label for="name">Телефон <span>*</span></label>
+                    <input name="phone" required type="text">
+                </div>
+                <div class="modal__notification">Только числа</div>
+                <div class="modal__form-text">Я согласен на <a href="#">обработку персональных данных</a></div>
+                <button class="btn modal__form-button">Отправить</button>
+            </form>
+    
+            <div class="modal__info modal__info_hide">
+                <div class="modal__info-title">Спасибо за оставленную заявку</div>
+                <div class="modal__info-text">В течении 15 минут мы Вам перезвоним</div>
+            </div>
+        </div>
+           
+        
+        
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

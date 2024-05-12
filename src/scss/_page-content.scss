@@ -1,0 +1,30 @@
+.content{
+    padding-top: 27px;
+    padding-bottom: 28px;
+    min-height: calc(100vh - 225px);;
+&__h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-title);
+    text-align: center;
+}
+&__h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--color-title);
+    text-align: center;
+}
+&__wrapper{
+    margin-top: 15px;
+}
+&__img{
+    float: left;
+    margin-right: 30px;
+}
+&__text{
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--color-text);
+    
+}
+}

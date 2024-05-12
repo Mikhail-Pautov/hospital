@@ -1,0 +1,12 @@
+.promo{
+    &__slider{
+        overflow: hidden;
+    }
+    &__slider img{
+        width: 100%;
+    }
+    &__slide-wrapper{
+        display: flex;
+        outline: 1px solid red;
+    }
+}

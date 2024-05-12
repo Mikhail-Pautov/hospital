@@ -1,0 +1,58 @@
+@media(max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+/*----------index.html start--------------- */
+    .header{
+
+        &__bottom-menu{
+            width: 400px;
+        }
+    }
+    .promo{
+        &__slider img{
+            width: 960px;
+        } 
+    }
+    .program{
+        &__wrapper{
+            width: 100%;
+        }
+    }
+    .services{
+        &__wrapper{
+            grid-template-columns:  1fr 1fr 1fr;
+            column-gap: 75px;
+            
+        }
+    }
+    .footer{
+
+        &__wrapper a, &__contacts, &__contacts-text{
+            font-size: 13px;
+        }
+    }
+   
+    .choose-spec{
+        margin-left: 55px;
+    }
+/*----------doctors.html start--------------- */
+    .search{
+        &__filter{
+            width: 960px;
+            & input{
+                width: 750px;   
+            }
+        }
+    }
+
+
+/*----------page-content.html start--------------- */
+    .content{
+        &__text{
+            font-size: 20px;
+        }
+    }
+
+
+}

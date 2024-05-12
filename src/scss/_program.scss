@@ -1,0 +1,30 @@
+.program{
+    
+&__bg{
+    background-color: var(--color-bg-second);
+}
+&__title{
+    padding-top: 10px;
+    color: var(--color-title);
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+&__wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+&__mb{
+    margin-bottom: 40px;
+}
+&__item{
+    margin-right: 10px;
+    &:last-child{
+        margin-right: 0px;
+    }
+}
+&__item-img img{
+    width: 100%;
+}
+}

@@ -1,0 +1,38 @@
+@import 'bootstrap-reboot.min';
+@import "variables";
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+@import 'header';
+@import 'buttons';
+@import 'promo';
+@import 'specialists';
+@import 'toggle';
+@import 'choose-spec';
+@import 'program';
+@import 'about';
+@import 'clinicsAddressesList';
+@import 'contacts';
+@import 'reviews';
+@import 'services';
+@import 'footer';
+@import 'modal';
+@import 'search';
+@import 'schedule';
+@import 'appointment';
+@import 'page-content';
+@import 'media/container-960';
+@import 'media/container-720';
+
+

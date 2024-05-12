@@ -1,0 +1,220 @@
+.search{
+    
+    &__filter{
+        padding-top: 30px;
+        width: 995px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        & input{
+            width: 814px;
+            border: 1px solid var(--color-btn);
+            border-radius: 10px;
+            background-color: var(--color-bg-grey);
+            padding: 1px 17px;
+            color: var(--color-text);
+            font-size: 15px;
+            font-weight: 400;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    &__filter-btn{
+        width: 156px;
+        background-color: var(--color-white);
+        border: 1px solid var(--color-btn);
+        border-radius: 10px;
+        color: var(--color-accent);
+        &:hover{
+            color: var(--color-white);
+            background-color: var(--color-active);
+        }
+    }
+    &__filter-choose{
+        display: flex;
+        width: 995px;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+    &__filter-clinic{
+        width: 408px;
+        & label{
+            font-size: 15px;
+            font-weight: 400;
+            color: var(--color-accent);
+        }
+        & select{
+            width: 267px;
+            padding: 7px 10px;
+            margin-left: 6px;
+            border: 1px solid var(--color-btn);
+            border-radius: 10px;
+            background-color: var(--color-bg-grey);
+            font-size: 14px;
+            font-weight: 300;
+            color: var(--color-text);
+        }
+    }
+    &__filter-specialty{
+        width: 494px;
+        margin-left: 32px;
+        & label{
+            font-size: 15px;
+            font-weight: 400;
+            color: var(--color-accent);
+        }
+        & select{
+            width: 267px;
+            padding: 7px 10px;
+            margin-left: 6px;
+            border: 1px solid var(--color-btn);
+            border-radius: 10px;
+            background-color: var(--color-bg-grey);
+            font-size: 14px;
+            font-weight: 300;
+            color: var(--color-text);
+        }
+    }
+    &__filter-toggle{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 300px;
+    }
+    &__wrapper-result{
+        margin-top: 22px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__no-result{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: var(--color-text); 
+    }
+}
+
+
+.radio{
+   position: relative;
+    &__input{
+        appearance: none;
+        position: absolute;
+    &:checked + .radio__label::before {
+        background-color:var(--color-btn);
+        border-color: var(--color-btn);
+    }
+    &:checked + .radio__label::before {
+        opacity: 1;
+    }
+    &:checked + .radio__label {
+        color: var(--color-accent);
+    }
+}
+    &__label{
+        padding-left: 21px;
+        font-size: 15px;
+        font-weight: 400;
+        color: var(--color-text);
+        cursor: pointer;
+        &::before{
+            content: "";
+            display: block;
+            width: 15px;
+            height: 15px;
+            background-color: var(--color-bg-grey);
+            border: 1px solid var(--color-btn);
+            border-radius: 50%;
+
+            position: absolute;
+            top: 6px;
+            left: 0;
+            z-index: 1;
+
+            transition: background .1s linear, borser .1s linear;
+        }
+    }
+}
+
+
+
+
+
+.card-doctor{
+    position: relative;
+    width: 270px;
+    height:520px;
+    margin-bottom: 50px;
+    border: 1px solid var(--color-btn);
+    border-radius: 10px;
+    overflow: hidden;
+    & a{
+        text-decoration: none;
+    }
+    & a:hover{
+        text-decoration: none;
+        color: var(--color-white);;
+    }
+   
+
+   
+&__photo{
+
+    & img {
+        width: 100%;
+    }
+}
+&__specialty{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-accent);
+}
+&__name{
+    height: 50px;
+    margin-top: 1px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-title);
+}
+&__price{
+    margin-top: 21px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-text);
+}
+&__clinics{
+    margin-top: 19px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-accent);
+}
+&__metro{
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-text);
+}
+&__btn{
+    
+    position: absolute;
+    bottom: 8px;
+    left: 17%;
+    width: 180px;
+    
+    margin-top: 18px;
+    margin-bottom: 10px;
+
+    
+}
+}
+

@@ -1,0 +1,26 @@
+.contacts{
+    width: 700px;
+    margin: 0 auto;
+    &__text{
+        color: var(--color-accent);
+        font-size: 14px;
+        font-weight: 600;
+    }
+    &__phone span{
+        color: var(--color-accent);
+        font-weight: 400;
+    }
+    &__ambulance span{
+        color: var(--color-accent);
+        font-weight: 400;
+    }
+    &__email span{
+        color: var(--color-accent);
+        font-weight: 400;
+    }
+    &__contacts-text{
+        color: var(--color-accent);
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

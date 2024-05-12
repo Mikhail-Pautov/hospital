@@ -1,0 +1,39 @@
+.footer{
+
+    &__wrapper{
+        padding: 25px 10px 13px 10px;
+        background-color: var(--color-bg-second);
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper li{
+        list-style-type: none;
+    }
+    &__wrapper a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--color-title);
+        &:hover{
+            color: var(--color-accent);
+        }
+    }
+    &__contacts{
+        color: var(--color-title);
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__contacts span{
+        color: var(--color-accent);
+        font-weight: 400;
+    }
+    &__contacts-text{
+        color: var(--color-accent);
+        font-size: 14px;
+        font-weight: 600;
+    }
+    &__bottom{
+        height: 30px;
+        background-color: var(--color-btn);
+    }
+}

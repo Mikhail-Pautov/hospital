@@ -1,0 +1,57 @@
+//https://itchief.ru/html-and-css/toggle-switch#html-razmetka-pereklyuchatelya - взяли отсуда
+.switch-btn {
+    display: inline-block;
+    width: 50px; /* ширина переключателя */
+    height: 20px; /* высота переключателя */
+    border-radius: 100px; /* радиус скругления */
+
+    border: 1px solid var(--color-btn);
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms; /* анимация */
+  }
+  .switch-btn::after {
+    content: "";
+    height: 25px; /* высота кнопки */
+    width: 25px; /* ширина кнопки */
+    border-radius: 18px; /* радиус кнопки */
+    background: #fff; /* цвет кнопки */
+    top: -4px; /* положение кнопки по вертикали относительно основы */
+    left: 10px; /* положение кнопки по горизонтали относительно основы */
+    transition-duration: 300ms; /* анимация */
+    position: absolute;
+    z-index: 1;
+  }
+  .switch-on {
+    background: var(--color-white);
+  }
+  .switch-on::after {
+    left: -1px;
+    background: var(--color-accent);
+  }
+
+  
+
+  .move-right::after {
+    left: 25px;
+    background: var(--color-accent);
+  }
+  .toggle{
+    display: flex;
+    justify-content: space-between;
+&__subtitle-left, &__subtitle-right{
+    color: var(--color-bg-second);
+    font-size: 30px;
+    font-weight: 400;
+    transition-duration: 300ms;
+}
+&__subtitle_activ{
+    color: var(--color-title);
+}
+&__wrapper{
+    margin-top: 13px;
+}
+}
